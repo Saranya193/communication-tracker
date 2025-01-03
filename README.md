@@ -4,37 +4,37 @@ The Communication Tracker is a web application designed to manage and track comm
 
 **Features** <br />
 **Admin Module** <br />
-Company Overview: Displays a summary of company-related communications.
-Manage Company: Tools to manage company details and communication settings.
-Manage Communication Methods: Configure communication channels effectively.
+Company Overview: Displays a summary of company-related communications.<br />
+Manage Company: Tools to manage company details and communication settings.<br />
+Manage Communication Methods: Configure communication channels effectively.<br />
 **User Module** <br />
-User Dashboard: Personalized dashboard for users to manage their communications.
-Notifications: Real-time updates on communication tasks.
-Calendar View: Visual representation of upcoming, due, and overdue tasks.
+User Dashboard: Personalized dashboard for users to manage their communications.<br />
+Notifications: Real-time updates on communication tasks.<br />
+Calendar View: Visual representation of upcoming, due, and overdue tasks.<br />
 **Common Features**
-Intuitive navigation and user-friendly design.
-Color-coded highlights for communication statuses.
-Fully responsive interface optimized for mobile and desktop.
-Live Demo
-https://saranya193.github.io/communication-tracker/
+Intuitive navigation and user-friendly design.<br />
+Color-coded highlights for communication statuses.<br />
+Fully responsive interface optimized for mobile and desktop.<br />
+Live Demo <br />
+https://saranya193.github.io/communication-tracker/<br />
 
-Repository
-https://github.com/Saranya193/communication-tracker.git
+Repository<br />
+https://github.com/Saranya193/communication-tracker.git<br />
 
-Installation and Setup
-1.Clone the repository:
-git clone <repository-url>  
-cd communication-tracker  
-2.Install dependencies:
-npm install  
-3.Start the development server:
-npm start  
-Technologies Used
-Frontend: React, React Router, Tailwind CSS
-State Management: Context API
-Icons: Font Awesome
-Styling: Custom CSS and Tailwind
-Folder Structure:
+**Installation and Setup** <br />
+1.Clone the repository:<br />
+git clone <repository-url>  <br />
+cd communication-tracker  <br />
+2.Install dependencies:<br />
+npm install  <br />
+3.Start the development server:<br />
+npm start  <br />
+**Technologies Used** <br />
+Frontend: React, React Router, Tailwind CSS<br />
+State Management: Context API<br />
+Icons: Font Awesome<br />
+Styling: Custom CSS and Tailwind<br />
+**Folder Structure:**<br />
 communication-tracker/
 ├── public/  
 │   ├── index.html  
