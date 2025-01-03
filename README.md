@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+**Communication Tracker**
+Overview
+The Communication Tracker is a web application designed to manage and track communication events. It provides distinct interfaces for administrators and users, with features like overdue communication alerts, calendar views, and reporting tools.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
+Admin Module
+Company Overview: Displays a summary of company-related communications.
+Manage Company: Tools to manage company details and communication settings.
+Manage Communication Methods: Configure communication channels effectively.
+User Module
+User Dashboard: Personalized dashboard for users to manage their communications.
+Notifications: Real-time updates on communication tasks.
+Calendar View: Visual representation of upcoming, due, and overdue tasks.
+Common Features
+Intuitive navigation and user-friendly design.
+Color-coded highlights for communication statuses.
+Fully responsive interface optimized for mobile and desktop.
+Live Demo
+https://saranya193.github.io/communication-tracker/
 
-## Available Scripts
+Repository
+GitHub Repository
 
-In the project directory, you can run:
+Installation and Setup
+1.Clone the repository:
+git clone <repository-url>  
+cd communication-tracker  
+2.Install dependencies:
+npm install  
+3.Start the development server:
+npm start  
+Technologies Used
+Frontend: React, React Router, Tailwind CSS
+State Management: Context API
+Icons: Font Awesome
+Styling: Custom CSS and Tailwind
+Folder Structure:
+communication-tracker/
+├── public/  
+│   ├── index.html  
+│   └── ...                 # Additional files  
+├── src/  
+│   ├── components/         # Shared components (layouts)  
+│   │   ├── AdminLayout.js  
+│   │   ├── UserLayout.js  
+│   ├── context/            # Company state management  
+│   ├── data/               # Mocked Data  
+│   ├── pages/              # Individual page components  
+│   ├── App.css  
+│   ├── App.js  
+│   ├── App.test.js  
+│   ├── index.css  
+│   ├── index.js  
+│   └── ...                 # Additional files  
+├── package.json            # Project dependencies  
+├── README.md               # Documentation  
+└── ...                     # Additional files  
 
-### `npm start`
+Additional Notes
+All external dependencies are documented in package.json.
+The application is fully tested for responsiveness and cross-browser compatibility.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
