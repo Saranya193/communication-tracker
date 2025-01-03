@@ -1,63 +1,63 @@
-**Communication Tracker**
-Overview
-The Communication Tracker is a web application designed to manage and track communication events. It provides distinct interfaces for administrators and users, with features like overdue communication alerts, calendar views, and reporting tools.
+# Communication Tracker
 
-**Features** <br />
-**Admin Module** <br />
-Company Overview: Displays a summary of company-related communications.<br />
-Manage Company: Tools to manage company details and communication settings.<br />
-Manage Communication Methods: Configure communication channels effectively.<br />
-**User Module** <br />
-User Dashboard: Personalized dashboard for users to manage their communications.<br />
-Notifications: Real-time updates on communication tasks.<br />
-Calendar View: Visual representation of upcoming, due, and overdue tasks.<br />
-**Common Features**
-Intuitive navigation and user-friendly design.<br />
-Color-coded highlights for communication statuses.<br />
-Fully responsive interface optimized for mobile and desktop.<br />
-Live Demo <br />
-https://saranya193.github.io/communication-tracker/<br />
+## Overview
 
-Repository<br />
-https://github.com/Saranya193/communication-tracker.git<br />
+The **Communication Tracker** is a web application designed to manage and track communication events. It provides distinct interfaces for administrators and users, with features like overdue communication alerts, calendar views, reporting tools, and more. This tool is essential for businesses to efficiently manage communication timelines, organize methods, and track interactions with companies.
 
-**Installation and Setup** <br />
-1.Clone the repository:<br />
-git clone <repository-url>  <br />
-cd communication-tracker  <br />
-2.Install dependencies:<br />
-npm install  <br />
-3.Start the development server:<br />
-npm start  <br />
-**Technologies Used** <br />
-Frontend: React, React Router, Tailwind CSS<br />
-State Management: Context API<br />
-Icons: Font Awesome<br />
-Styling: Custom CSS and Tailwind<br />
-**Folder Structure:**<br />
-communication-tracker/
-├── public/  
-│   ├── index.html  
-│   └── ...                 # Additional files  
-├── src/  
-│   ├── components/         # Shared components (layouts)  
-│   │   ├── AdminLayout.js  
-│   │   ├── UserLayout.js  
-│   ├── context/            # Company state management  
-│   ├── data/               # Mocked Data  
-│   ├── pages/              # Individual page components  
-│   ├── App.css  
-│   ├── App.js  
-│   ├── App.test.js  
-│   ├── index.css  
-│   ├── index.js  
-│   └── ...                 # Additional files  
-├── package.json            # Project dependencies  
-├── README.md               # Documentation  
-└── ...                     # Additional files  
+---
 
-**Additional Notes**
-All external dependencies are documented in package.json.
-The application is fully tested for responsiveness and cross-browser compatibility.
+## Features
 
+### Admin Module
+- **Company Overview**: Displays a summary of company-related communications.
+- **Manage Company**: Tools to manage company details and communication settings.
+- **Manage Communication Methods**: Configure communication channels effectively.
+  
+### User Module
+- **User Dashboard**: Personalized dashboard for users to manage their communications.
+- **Notifications**: Real-time updates on communication tasks.
+- **Calendar View**: Visual representation of upcoming, due, and overdue tasks.
+
+### Reports
+- **Generate Reports**: Ability to generate detailed communication reports based on selected criteria (e.g., communication status, overdue communications, company-specific reports).
+- **Export to CSV**: Option to export communication data to a CSV format for further analysis.
+- **Analytics**: Visual analytics (charts, graphs) to represent communication data over time, identifying patterns or trends.
+  
+### Common Features
+- **Intuitive Navigation**: Easy-to-use navigation for admins and users.
+- **Color-Coded Statuses**: Communication statuses are highlighted using color codes to help quickly identify overdue tasks, upcoming communication, etc.
+- **Fully Responsive Interface**: Optimized for both mobile and desktop views.
+- **User Profiles**: Customizable user profiles with preferences for notifications and alerts.
+
+---
+
+## Live Demo
+
+You can view the live demo of the Communication Tracker here:
+
+[Live Demo](https://saranya193.github.io/communication-tracker/)
+
+---
+
+## Repository
+
+You can find the source code of this project on GitHub:
+
+[Repository Link](https://github.com/Saranya193/communication-tracker.git)
+
+---
+
+## Installation and Setup
+
+To run this project locally, follow these steps:
+
+### 1. Clone the repository:
+
+```bash
+git clone https://github.com/Saranya193/communication-tracker.git
+cd communication-tracker
+
+<br />
+**### 2. Install dependencies:**
+```bash
 
