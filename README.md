@@ -52,12 +52,45 @@ You can find the source code of this project on GitHub:
 To run this project locally, follow these steps:
 
 ### 1. Clone the repository:
+git clone https://github.com/Saranya193/communication-tracker.git <br />
+cd communication-tracker  <br />
 
-```bash
-git clone https://github.com/Saranya193/communication-tracker.git
-cd communication-tracker
+### 2. Install Dependencies:
+Run the following command to install the required dependencies:  <br />
+npm install  <br />
+### 3. Start the Development Server:
+Run the following command to start the application:  <br />
+npm start <br />
+This will start the development server, and the application will be available at http://localhost:3000. <br />
+## Technologies Used
+### Frontend:
+React: For building the user interface.
+React Router: For navigation between pages.
+Tailwind CSS: For styling and design.
+Font Awesome: For icons.
+### State Management:
+Context API: For managing state across components.
+### Additional Tools:
+Custom CSS: For additional styling.
+Chart.js: For analytics and data visualization.
 
-<br />
-**### 2. Install dependencies:**
-```bash
+## Folder Structure
+communication-tracker/ <br />
+├── public/  
+│   ├── index.html  
+│   └── ...                 # Static files  
+├── src/  
+│   ├── components/         # Shared components (e.g., layouts)  
+│   ├── context/            # State management   
+│   ├── data/               # Mocked Data files  
+│   ├── pages/              # Individual pages (e.g.,Reports)   
+│   ├── App.css  
+│   ├── App.js  
+│   ├── index.css  
+│   ├── index.js  
+│   └── ...                 # Additional files  
+├── package.json            # Project dependencies  
+├── README.md               # Documentation  
+└── ...                     # Additional files  
+
 
