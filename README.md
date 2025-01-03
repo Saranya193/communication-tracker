@@ -2,7 +2,7 @@
 Overview
 The Communication Tracker is a web application designed to manage and track communication events. It provides distinct interfaces for administrators and users, with features like overdue communication alerts, calendar views, and reporting tools.
 
-Features
+**Features** <br />
 Admin Module
 Company Overview: Displays a summary of company-related communications.
 Manage Company: Tools to manage company details and communication settings.
@@ -19,7 +19,7 @@ Live Demo
 https://saranya193.github.io/communication-tracker/
 
 Repository
-GitHub Repository
+https://github.com/Saranya193/communication-tracker.git
 
 Installation and Setup
 1.Clone the repository:
