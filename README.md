@@ -3,15 +3,15 @@ Overview
 The Communication Tracker is a web application designed to manage and track communication events. It provides distinct interfaces for administrators and users, with features like overdue communication alerts, calendar views, and reporting tools.
 
 **Features** <br />
-Admin Module
+**Admin Module** <br />
 Company Overview: Displays a summary of company-related communications.
 Manage Company: Tools to manage company details and communication settings.
 Manage Communication Methods: Configure communication channels effectively.
-User Module
+**User Module** <br />
 User Dashboard: Personalized dashboard for users to manage their communications.
 Notifications: Real-time updates on communication tasks.
 Calendar View: Visual representation of upcoming, due, and overdue tasks.
-Common Features
+**Common Features**
 Intuitive navigation and user-friendly design.
 Color-coded highlights for communication statuses.
 Fully responsive interface optimized for mobile and desktop.
@@ -56,7 +56,7 @@ communication-tracker/
 ├── README.md               # Documentation  
 └── ...                     # Additional files  
 
-Additional Notes
+**Additional Notes**
 All external dependencies are documented in package.json.
 The application is fully tested for responsiveness and cross-browser compatibility.
 
